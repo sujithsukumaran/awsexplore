@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [awstests]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="awstests(failed)" verbose="0">
+    <classes>
+      <class name="awstests.EC2Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="sendTestNGReports"/>
+          <include name="setUpDriver"/>
+          <include name="EC2LaunchTest"/>
+        </methods>
+      </class> <!-- awstests.EC2Test -->
+    </classes>
+  </test> <!-- awstests(failed) -->
+</suite> <!-- Failed suite [awstests] -->

@@ -1,0 +1,4 @@
+# Created at 2021-08-15T00:57:23.987
+Boot Manifest-JAR contains absolute paths in classpath 'D:\D Drive Data_Backup\awsexplore\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

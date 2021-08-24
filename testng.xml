@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="awstests">
+
+    <test name="awstests">
+        <classes>
+            <class name="awstests.EC2Test" />
+        </classes>
+    </test>
+
+</suite>
