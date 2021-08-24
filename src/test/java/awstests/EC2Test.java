@@ -55,7 +55,7 @@ public class EC2Test {
     @Test
     public void EC2LaunchTest() {
         //Replace the URL with another EC Public IP or use any other web page
-        driver.get("http://13.234.59.218/");
+        driver.get("http://yourinstanceip");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         String pageText = driver.findElement(By.tagName("body")).getText();
         Assert.assertEquals(pageText, "Hello world");
